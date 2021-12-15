@@ -15,7 +15,10 @@ let y = 2
 // }
 
 while (y < 1000) {
-    y = Math.pow(i, 3);
-    console.log(y);
+    y = Math.pow(2,i);
     i++;
+    if (y >= 1000) {
+        break;
+    }
+    console.log(y);
 }
