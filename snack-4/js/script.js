@@ -9,7 +9,7 @@ let sum = 0;
 
 // creo ciclo for con somma delle cifre del numero immesso dall'utente nel prompt sfruttando il .lenght
 // il parseInt trasforma la stringa in numeri che può così sommare 
-for(i = 0; i < userNumber.length; i++){
+for(let i = 0; i < userNumber.length; i++){
     sum += parseInt(userNumber[i]);
 }
 
